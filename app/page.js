@@ -7,7 +7,8 @@ export default function Home() {
   return(
     <main className="h-screen">
       <h1 className="text-x1">CPRG 306: Web Development-2 - Assignment </h1>
-      <Link className={linkStyles} href="./week-2"> Week2 Assignment </Link>
+      <div><Link className={linkStyles} href="./week-2"> Week2 Assignment </Link></div>
+      <div><Link className={linkStyles} href="./week-3"> Week3 Assignment </Link></div>
     </main>
   );
 }
