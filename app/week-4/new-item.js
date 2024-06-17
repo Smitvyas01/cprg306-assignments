@@ -48,7 +48,7 @@ export default function NewItemForm() { // Renamed function for clarity
             id="quantity"
             min="0"
             value={itemQuantity}
-            onChange={(e) => setItemQuantity(e.target.value)}
+            onChange={(ent) => setItemQuantity(ent.target.value)}
           />
         </div>
         <div>
@@ -56,7 +56,7 @@ export default function NewItemForm() { // Renamed function for clarity
             className="m-10 border-4 border-black"
             id="category"
             value={itemType}
-            onChange={(e) => setItemType(e.target.value)}
+            onChange={(ent) => setItemType(ent.target.value)}
           >
            <option value="produce">Produce</option>
             <option value="dairy">Dairy</option>
