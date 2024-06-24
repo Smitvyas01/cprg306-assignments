@@ -17,16 +17,16 @@ const ItemList = () => {
 
   return (
     <div>
-      <div className='m-5'>
+      <div className='m-4'>
         <button
-        className='ml-5 square-md h-10 w-40'
+        className='ml-4 square-md h-9 w-40'
           onClick={() => setSort('name')}
           style={{ backgroundColor: sort === 'name' ? 'orange' : 'white' }}
         >
         <p className='font-bold'>Sort by Name</p>
         </button>
         <button
-        className='ml-10 square-md h-10 w-40'
+        className='ml-9 square-md h-9 w-40'
           onClick={() => setSort('category')}
           style={{ backgroundColor: sort === 'category' ? 'orange' : 'white' }}
         >  
