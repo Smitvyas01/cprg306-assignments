@@ -16,7 +16,7 @@ const ItemList = () => {
   });
 
   return (
-    <div>
+    <div className="max-w-md mx-auto text-center">
       <div className='m-4'>
         <button
         className='ml-4 square-md h-9 w-40'
